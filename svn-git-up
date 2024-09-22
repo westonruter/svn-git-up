@@ -1,10 +1,17 @@
 #!/bin/bash
+# Script to update Git and SVN repos checked out in the same directory.
 #
-# This scripts updates Git and SVN repos checked out in the same directory.
+# This is primarily intended for WordPress Core development, specifically for these two repos:
+# Git: https://github.com/WordPress/wordpress-develop.git
+# SVN: https://develop.svn.wordpress.org/trunk/
 #
-# Pass a branch name like 4.6 as the sole argument to checkout that branch. Otherwise, master/trunk is checked out.
+# Pass a branch name like 4.6 as the sole argument to checkout that branch.
+# Otherwise, trunk is checked out.
 #
-# WordPressDev, Copyright 2019 Google LLC
+# This script was originally developed at https://github.com/GoogleChromeLabs/wordpressdev/blob/master/bin/svn-git-up
+# but was split into a separate repo via git-filter-repo.
+#
+# Copyright 2019 Google LLC
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
