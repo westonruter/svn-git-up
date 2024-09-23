@@ -5,7 +5,7 @@
 # Git: https://github.com/WordPress/wordpress-develop.git
 # SVN: https://develop.svn.wordpress.org/trunk/
 #
-# Pass a branch name like 4.6 as the sole argument to checkout that branch.
+# Pass a branch name like 4.6 as the sole argument to check out that branch.
 # Otherwise, trunk is checked out.
 #
 # This script was originally developed at https://github.com/GoogleChromeLabs/wordpressdev/blob/master/bin/svn-git-up
