@@ -3,10 +3,10 @@ This script to updates Git and SVN repos (i.e. `git pull` & `svn up`) checked ou
 Git: `https://github.com/WordPress/wordpress-develop.git`  
 SVN: `https://develop.svn.wordpress.org/trunk/`
 
-Pass a branch name like `6.6` as the sole argument to check out that branch:
+Pass a branch name like `6.8` as the sole argument to check out that branch:
 
 ```bash
-git svn-up 6.6
+git svn-up 6.8
 ```
 
 Or a feature branch:
