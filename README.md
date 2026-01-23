@@ -1,4 +1,4 @@
-This script to updates Git and SVN repos (i.e. `git pull` & `svn up`) checked out in the same directory. This is primarily intended for WordPress Core development, specifically for these two repos:
+This script updates Git and SVN repos (i.e. `git pull` & `svn up`) checked out in the same directory. This is primarily intended for WordPress Core development, specifically for these two repos:
 
 Git: `https://github.com/WordPress/wordpress-develop.git`  
 SVN: `https://develop.svn.wordpress.org/trunk/`
